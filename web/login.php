@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Загрузка файлов в PHP</title>
+    <meta name="author" content="YuriyShvetsov">
+    <title>Авторизация пользователя</title>
 </head>
 <body>
     <form action="post.php" method="post">
