@@ -3,7 +3,10 @@ session_start();
 
 if (isset($_SESSION['user_name'])) {
     echo 'Привет, ' . $_SESSION['user_name'] . '!';
-    include 'exit.php';
+    ?>
+    <br>
+    <a href="exit.php">Выход</a>
+    <?php
 } else {
     include 'login.php';
 }
